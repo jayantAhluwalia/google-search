@@ -1,0 +1,132 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 0.9em;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+}
+
+.left-nav,
+.right-nav {
+	display: flex;
+}
+
+.left-nav a,
+.right-nav a {
+	text-decoration: none;
+	padding: 2em 2em;
+	color: black;
+	opacity: 0.7;
+}
+
+.right-nav {
+	padding-right: 3em;
+}
+.right-nav img {
+	position: relative;
+	top: 1.8em;
+	padding-right: 2em;
+}
+.login-btn {
+	display: flex;
+	position: relative;
+	top: 1.7em;
+	height: 2em;
+	padding: 0 2em;
+	width: 4em;
+	background-color: rgb(27, 27, 233);
+	justify-content: center;
+	align-items: center;
+	border-radius: 0.2em;
+}
+
+.login-btn a {
+	color: white;
+	opacity: 1;
+	font-weight: bold;
+}
+
+main {
+	position: relative;
+	top: 10em;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	justify-items: center;
+	align-items: center;
+}
+
+.search-bar {
+	display: flex;
+	border: 1px solid rgb(170, 170, 170);
+	align-items: center;
+	width: 33em;
+	justify-content: space-between;
+	border-radius: 2em;
+	margin: 2em;
+	height: 3em;
+}
+
+.search-input input {
+	outline: none;
+	border: 2px solid white;
+	width: 30em;
+}
+
+.search-icon,
+.search-mic {
+	padding: 0 0.5em;
+}
+
+.search-btn {
+	display: flex;
+	gap: 3em;
+}
+
+.search-btn a {
+	text-decoration: none;
+	color: #5f6368;
+}
+
+.search-btn .btns {
+	background-color: #f2f2f2;
+	width: 9em;
+	height: 2.5em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 0.25em;
+}
+
+footer {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	align-items: center;
+	position: fixed;
+	bottom: 0;
+	background-color: rgb(240, 236, 236);
+	height: 2.5em;
+	border-top: 1px solid rgb(228, 225, 225);
+}
+
+.left-footer,
+.right-footer {
+	display: flex;
+	padding: 1em 2em;
+	gap: 2em;
+}
+
+.left-footer a,
+.right-footer a {
+	text-decoration: none;
+	color: #5f6368;
+}
